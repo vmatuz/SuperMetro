@@ -1,0 +1,15 @@
+C:\vika personal\awesome\AwesomeApp\Application\bin\Debug\net8.0\Application.deps.json
+C:\vika personal\awesome\AwesomeApp\Application\bin\Debug\net8.0\Application.dll
+C:\vika personal\awesome\AwesomeApp\Application\bin\Debug\net8.0\Application.pdb
+C:\vika personal\awesome\AwesomeApp\Application\bin\Debug\net8.0\Domain.dll
+C:\vika personal\awesome\AwesomeApp\Application\bin\Debug\net8.0\Domain.pdb
+C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.csproj.CopyComplete
+C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.dll
+C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\refint\Application.dll
+C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.pdb
+C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\ref\Application.dll
