@@ -8,6 +8,7 @@ namespace Domain.Entities
         public string Bank { get; set; }
         public DateTime DueDate { get; set; }
         public bool DiscountApplied { get; set; }
+        public bool SplitPayment { get; set; }
 
         public ICollection<ArticleTransaction> ArticleTransactions{ get; set; }
 

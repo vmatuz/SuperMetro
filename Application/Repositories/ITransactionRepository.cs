@@ -8,6 +8,7 @@ namespace Application.Repositories
         IEnumerable<Transaction> GetAllWithDueIn60Days();
         IEnumerable<Transaction> GetAllWithDueToday();
         IEnumerable<Transaction> GetAllWithDiscount();
+        Task AddTransaction(Transaction transaction, List<Article> articles, List<Payment> payments);
         void Seed();
     }
 }

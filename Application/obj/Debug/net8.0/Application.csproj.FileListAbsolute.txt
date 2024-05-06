@@ -8,6 +8,7 @@ C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.Gen
 C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
 C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
 C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.sourcelink.json
 C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.csproj.CopyComplete
 C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\Application.dll
 C:\vika personal\awesome\AwesomeApp\Application\obj\Debug\net8.0\refint\Application.dll

@@ -18,7 +18,7 @@ namespace Application.Handlers.Article
 
         public async Task<List<GetArticleResponse>> Handle(GetAllArticlesRequest request, CancellationToken cancellationToken)
         {
-           var articles= await _articleRepository.GetAll(cancellationToken);
+           var articles=  _articleRepository.GetAllArticles(cancellationToken);
 
             var articlesResponse =   _mapper.Map<List<GetArticleResponse>>(articles);
 

@@ -1,4 +1,5 @@
 C:\vika personal\awesome\AwesomeApp\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\vika personal\awesome\AwesomeApp\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
 C:\vika personal\awesome\AwesomeApp\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
 C:\vika personal\awesome\AwesomeApp\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
 C:\vika personal\awesome\AwesomeApp\Infrastructure\bin\Debug\net8.0\Application.dll
@@ -10,8 +11,10 @@ C:\vika personal\awesome\AwesomeApp\Infrastructure\obj\Debug\net8.0\Infrastructu
 C:\vika personal\awesome\AwesomeApp\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
 C:\vika personal\awesome\AwesomeApp\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
 C:\vika personal\awesome\AwesomeApp\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\vika personal\awesome\AwesomeApp\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
 C:\vika personal\awesome\AwesomeApp\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CopyComplete
 C:\vika personal\awesome\AwesomeApp\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
 C:\vika personal\awesome\AwesomeApp\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\vika personal\awesome\AwesomeApp\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\vika personal\awesome\AwesomeApp\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 C:\vika personal\awesome\AwesomeApp\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

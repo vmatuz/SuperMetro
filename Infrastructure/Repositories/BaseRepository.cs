@@ -11,6 +11,7 @@ namespace Infrastructure.Repositories
 
         public static Guid CustomerguidId = Guid.Parse("8b441c77-604a-44c0-9550-a739dbf06012");
         public static Guid PaymentGuidId = Guid.Parse("8b441c77-604a-44c0-9550-a739dbf06011");
+        public static Guid ArticleGuidId = Guid.Parse("8b441c77-604a-44c0-9550-a739dbf06000");
 
         public BaseRepository(DataContext context)
         {
@@ -42,6 +43,6 @@ namespace Infrastructure.Repositories
         public Task<List<T>> GetAll(CancellationToken cancellationToken)
         {
             return Context.Set<T>().ToListAsync(cancellationToken);
-        }        
+        }
     }
 }

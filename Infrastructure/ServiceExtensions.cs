@@ -14,6 +14,7 @@ namespace Application
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<IPaymentRepository, PaymentRepository>();
             services.AddScoped<ITransactionRepository, TransactionRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
 
         public static void SeedData(this IServiceCollection services)

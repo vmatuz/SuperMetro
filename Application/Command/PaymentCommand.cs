@@ -13,8 +13,10 @@ public record AddPaymentCommand() : IRequest
     public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
     [SwaggerSchema(ReadOnly = true)]
     public DateTime? LastUpdatedDate { get; set; } = DateTime.MinValue;
+    [SwaggerSchema(Required = new[] { "Amount" })]
     public double Amount { get; set; }
     public PaymentType PaymentType { get; set; }
+    [SwaggerSchema(Required = new[] { "CustomerId" })]
     public Guid CustomerId { get; set; }
     public DateTime PaymentDate { get; set; }
     public Guid ProccessedBy { get; set; }

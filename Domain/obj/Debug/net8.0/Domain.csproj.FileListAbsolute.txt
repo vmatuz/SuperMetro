@@ -5,6 +5,7 @@ C:\vika personal\awesome\AwesomeApp\Domain\obj\Debug\net8.0\Domain.GeneratedMSBu
 C:\vika personal\awesome\AwesomeApp\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
 C:\vika personal\awesome\AwesomeApp\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
 C:\vika personal\awesome\AwesomeApp\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\vika personal\awesome\AwesomeApp\Domain\obj\Debug\net8.0\Domain.sourcelink.json
 C:\vika personal\awesome\AwesomeApp\Domain\obj\Debug\net8.0\Domain.dll
 C:\vika personal\awesome\AwesomeApp\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\vika personal\awesome\AwesomeApp\Domain\obj\Debug\net8.0\Domain.pdb

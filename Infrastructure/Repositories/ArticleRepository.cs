@@ -12,9 +12,17 @@ namespace Infrastructure.Repositories
         }
         public IEnumerable<Article> GetAllWithBatchNumber(int batchNumber, CancellationToken cancellationToken)
         {
-            var getAllByBatch = Context.Articles.Where(x => x.BatchNumber == batchNumber).ToListAsync();
+            var getAllByBatch = Context.Articles.Where(x => x.BatchNumber == batchNumber)
+                                    .Include(x=>x.ArticleTransactions).ToListAsync();
 
             return getAllByBatch.Result;
+        }
+        public  IEnumerable<Article> GetAllArticles(CancellationToken cancellationToken)
+        {
+            var all = Context.Articles
+                                    .Include(x => x.ArticleTransactions).ToListAsync(cancellationToken);
+
+            return all.Result;
         }
 
         public void UpdateQuantity(int batchNumber, int quantity)
@@ -44,7 +52,7 @@ namespace Infrastructure.Repositories
             if (!Context.Articles.Any())
             {
                 var articles = new List<Article>() {
-                new Article {Id = Guid.Parse("8b441c77-604a-44c0-9550-a739dbf06000"), CreatedDate=DateTime.Now, Name = "Funny Memoir",
+                new Article {Id = ArticleGuidId, CreatedDate=DateTime.Now, Name = "Funny Memoir",
                              Quantity = 20, AllowDiscount = false,
                              BatchNumber = 3, Type = Domain.Enums.ArticleTypes.Books
                             },
@@ -70,5 +78,7 @@ namespace Infrastructure.Repositories
                 Context.SaveChanges();
             }
         }
+
+       
     }
 }
